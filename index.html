@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Notes Hub</title>
+  <style>
+    body {
+      background-color: #f4f8fc;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #34495e;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    nav {
+      background-color: #2c3e50;
+      text-align: center;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .content {
+      padding: 20px;
+    }
+
+    .note {
+      background-color: white;
+      margin: 20px auto;
+      padding: 20px;
+      max-width: 700px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: left;
+    }
+
+    .note img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+
+    footer {
+      background-color: #34495e;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    h2 {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>📚 Student Notes Hub</h1>
+    <p>All the notes you need, totally free 💖</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Subjects</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <div class="content">
+    <h2>📝 Latest Notes</h2>
+
+    <!-- Note 1 -->
+    <div class="note">
+      <h3>📘 Biology - Cell Structure</h3>
+      <p>
+        Cells are the basic unit of life. Every living organism is made of cells. There are two main types:
+        <ul>
+          <li>Prokaryotic (no nucleus)</li>
+          <li>Eukaryotic (has nucleus)</li>
+        </ul>
+        Inside a cell, we have organelles like:
+        <b>Mitochondria</b> (powerhouse), <b>Ribosomes</b> (make proteins), and <b>Cell membrane</b> (controls what goes in/out).
+      </p>
+      <img src="cell-diagram.png" alt="Cell Diagram">
+    </div>
+
+    <!-- Note 2 -->
+    <div class="note">
+      <h3>📗 Math - Trigonometry Basics</h3>
+      <p>
+        Trigonometry is all about triangles! Use the formula: <b>SOH CAH TOA</b><br>
+        <ul>
+          <li>Sine = Opposite / Hypotenuse</li>
+          <li>Cosine = Adjacent / Hypotenuse</li>
+          <li>Tangent = Opposite / Adjacent</li>
+        </ul>
+        Practice with right-angled triangles and learn to use sin, cos, and tan.
+      </p>
+    </div>
+
+    <!-- Note 3 -->
+    <div class="note">
+      <h3>📙 History - French Revolution</h3>
+      <p>
+        The French Revolution (1789) was a time of major change in France. People protested against the monarchy and unfair taxes.
+        Important points:
+        <ul>
+          <li>Storming of the Bastille</li>
+          <li>Declaration of Rights of Man</li>
+          <li>Rise of Napoleon</li>
+        </ul>
+        It influenced revolutions all around the world!
+      </p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Student Notes Hub | Made with ❤️ by a student, for students!
+  </footer>
+</body>
+</html>
